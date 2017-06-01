@@ -2,15 +2,44 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" href="css/style.css">
-  <title></title>
+	<meta charset="UTF-8">
+	<title>Class Website</title>
+	<link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
+	<nav class="clearfix main-nav">
+		<a class="site-name" href="#">Code Life</a>
+		<ul>
+			<li>
+				<a href="#">HTML</a>
+			</li>
+			<li>
+				<a href="#">CSS</a>
+			</li>
+			<li>
+				<a href="#">JS</a>
+			</li>
+		</ul>
+	</nav>
 
-<!-- Load js at the bottom of the body -->
-  <script src="js/script.js"></script>
+	<div class="header">
+		<h1>Building the Web</h1>
+	</div>
+
+	<div class="row">
+		<div class="col-3">
+			<img alt="HTML5 Icon" class="img-100" src="images/html.png">
+			<p>HTML (HyperText Markup Language) is the most basic building block of the Web. It describes and defines the content of a webpage. Other technologies besides HTML are generally used to describe a webpage's appearance/presentation (CSS) or functionality (JavaScript).</p>
+		</div>
+		<div class="col-3">
+			<img alt="CSS Icon" class="img-100" src="images/css.png">
+			<p>Cascading Style Sheets (CSS) are a stylesheet language used to describe the presentation of a document written in HTML or XML (including XML dialects like SVG or XHTML). CSS describes how elements should be rendered on screen, on paper, in speech, or on other media.</p>
+		</div>
+		<div class="col-3">
+			<img alt="JavaScript Icon" class="img-100" src="images/js.png">
+			<p>JavaScript (JS) is a lightweight interpreted or JIT-compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as node.js, Apache CouchDB and Adobe Acrobat.</p>
+		</div>
+	</div>
 </body>
-
 </html>
